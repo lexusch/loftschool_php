@@ -60,7 +60,7 @@ function task4()
 function task5()
 {
     echo $carl = "Карл у Клары украл Кораллы" . "\n";
-    echo $bottles = "Две бутылки лимонада" . "\n\n"; 
+    echo $bottles = "Две бутылки лимонада" . "\n\n";
 
     echo str_replace("К", "", $carl);
     echo str_replace("Две", "Три", $bottles);
@@ -73,7 +73,7 @@ function task6()
 
 function task7($filename)
 {
-    if($file = fopen($filename, "r")) {
+    if ($file = fopen($filename, "r")) {
         $strings = "";
 
         while (!feof($file)) {
@@ -88,15 +88,12 @@ function task7($filename)
 
 function task8()
 {
-    
 }
 
 function task9()
 {
-    
 }
 
 function task10()
 {
-    
 }
